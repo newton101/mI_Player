@@ -1,4 +1,11 @@
 MIPlayer::Application.routes.draw do
+
+
+  match "songs/upload", :as => 'upload'
+  match "songs/delete", :as => 'delete'
+
+  root :to => 'songs#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
