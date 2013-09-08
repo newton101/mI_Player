@@ -43,6 +43,6 @@ end
 
 ###Note
 
-~~~~
+~~~
 The application will attempt to create a connection to Amazon S3 as soon as the application is started (the application.rb file loads when your application starts up) and the app will load (or not) depending on whether the connection was successful.
-~~~~
+~~~
